@@ -28,4 +28,5 @@ const mapState = (state, { id }) => ({
     isChecked: state[id],
 });
 
+
 export default connect(mapState)(EmployeesBirthdayItem);
