@@ -1,0 +1,65 @@
+.page-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+}
+.page-title {
+    text-align: center;
+}
+.employees-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 15px;
+    border-right: 1px solid grey;
+}
+.notActive {
+    display: flex;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.active {
+    display: flex;
+    font-weight: bold;
+    padding-top: 10px;
+    color: blue;
+}
+.employer-lastName, .employer-firstName {
+    padding-right: 5px;
+}
+.radio-button {
+    display: flex;
+    flex-direction: column;
+}
+.radio-button>label {
+    padding-top: 5px;
+}
+.employees-block:empty::before {
+    content: "-----";
+    font-size: 25px;
+}
+.employees-birthday-list {
+    padding: 20px;
+    border-top: 1px solid grey;
+}
+.employees-birthday-list-empty {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.employees-birthday-item {
+    display: flex;
+    list-style-type: none;
+    padding-left: 15px;
+    font-weight: bold;
+}
+.employees-birthday-item li:first-child{
+    list-style-type: disc;
+}
+.employees-birthday-item li:last-child::before{
+    content:"- ";
+}
+.employees-birthday-section h2:last-child {
+    display: none;
+}
+
