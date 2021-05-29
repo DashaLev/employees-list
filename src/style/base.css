@@ -23,18 +23,19 @@
     padding-top: 10px;
     color: blue;
 }
-.employer-lastName, .employer-firstName {
+.employer-lastName,
+.employer-firstName {
     padding-right: 5px;
 }
 .radio-button {
     display: flex;
     flex-direction: column;
 }
-.radio-button>label {
+.radio-button > label {
     padding-top: 5px;
 }
 .employees-block:empty::before {
-    content: "-----";
+    content: '-----';
     font-size: 25px;
 }
 .employees-birthday-list {
@@ -53,13 +54,12 @@
     padding-left: 15px;
     font-weight: bold;
 }
-.employees-birthday-item li:first-child{
+.employees-birthday-item li:first-child {
     list-style-type: disc;
 }
-.employees-birthday-item li:last-child::before{
-    content:"- ";
+.employees-birthday-item li:last-child::before {
+    content: '- ';
 }
 .employees-birthday-section h2:last-child {
     display: none;
 }
-

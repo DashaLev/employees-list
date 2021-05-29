@@ -1,82 +1,82 @@
 const alphabet = [
     {
-        name: "A",
+        name: 'A',
     },
     {
-        name: "B",
+        name: 'B',
     },
     {
-        name: "C",
+        name: 'C',
     },
     {
-        name: "D",
+        name: 'D',
     },
     {
-        name: "E",
+        name: 'E',
     },
     {
-        name: "F",
+        name: 'F',
     },
     {
-        name: "G",
+        name: 'G',
     },
     {
-        name: "H",
+        name: 'H',
     },
     {
-        name: "I",
+        name: 'I',
     },
     {
-        name: "J",
+        name: 'J',
     },
     {
-        name: "K",
+        name: 'K',
     },
     {
-        name: "L",
+        name: 'L',
     },
     {
-        name: "M",
+        name: 'M',
     },
     {
-        name: "N",
+        name: 'N',
     },
     {
-        name: "O",
+        name: 'O',
     },
     {
-        name: "P",
+        name: 'P',
     },
     {
-        name: "Q",
+        name: 'Q',
     },
     {
-        name: "R",
+        name: 'R',
     },
     {
-        name: "S",
+        name: 'S',
     },
     {
-        name: "T",
+        name: 'T',
     },
     {
-        name: "U",
+        name: 'U',
     },
     {
-        name: "V",
+        name: 'V',
     },
     {
-        name: "W",
+        name: 'W',
     },
     {
-        name: "X",
+        name: 'X',
     },
     {
-        name: "Y",
+        name: 'Y',
     },
     {
-        name: "Z",
+        name: 'Z',
     },
-];
+]
 
-export default alphabet;
+export default alphabet
