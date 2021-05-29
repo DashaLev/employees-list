@@ -17,6 +17,7 @@ const App = () => {
                 ...user,
                 active: false,
             }))
+            setEmployees(users)
 
             const employeesIds = new Set(localStorageListEmployees.map(item => item.id))
             const employeesList = [...localStorageListEmployees, ...users.filter(element => !employeesIds.has(element.id))]
